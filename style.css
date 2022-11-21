@@ -1,4 +1,4 @@
-.modalStart {
+#modalStart {
     padding: 10px;
     background-color: aliceblue;
     border-radius: 5px;
@@ -14,7 +14,9 @@
     align-items: center;
     background-color: blanchedalmond;
     margin: 0 auto;
-    position: absolute;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 .modal {
     width: 300px;
@@ -24,8 +26,8 @@
     background-color: aquamarine;
 }
 .modal-close {
-width: 10px;
-height: 10px;
+width: 30px;
+height: 30px;
 background-color: red;
 border-radius: 50%;
 color: white;
