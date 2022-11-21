@@ -1,0 +1,40 @@
+.modalStart {
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    border: 0.2px;
+}
+.modal-wrapper {
+    width: 400px;
+    height: 400px;
+    z-index: 9999;
+    border-radius: 15px;
+    background-color: blanchedalmond;
+    margin: 0 auto;
+    position: fixed;
+}
+.modal-close {
+width: 10px;
+height: 10px;
+background-color: red;
+border-radius: 50%;
+color: white;
+}
+.modal-button {
+    padding: 10px;
+    border: 0px;
+    background-color: rgba(240, 248, 255, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+input {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    color: black;
+    background-color: aliceblue;
+    border-radius: 6px;
+    border: 0.2px black solid;
+}
